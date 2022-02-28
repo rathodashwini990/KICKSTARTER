@@ -12,25 +12,30 @@ import Grid2 from "./Grids/Grid2";
 import Module5 from "./Modules/Module5";
 import Module6 from "./Modules/Module6";
 import Module7 from "./Modules/Module7";
+import ReactCardSlider from "../Aakash/Carousel/ReactCardSlider";
+import Data from "../data";
+import Data2 from "../data2";
+import Data3 from "../data3";
+import GridImage1 from "./GridImage/GridImage1";
 export const Home = ()=>{
 	return (<>
 	<Navbar />
 	<Header/>
 	<CartItem/>
 	<Module1/>
-	<h1>carausel</h1>
+	<ReactCardSlider slides={Data}
+ />
 	<Module2/>
 	<div>form</div>
-	<h1>carausel</h1>
+	<ReactCardSlider slides={Data2} />
 	<Module3/>
 	<h1>carausel</h1>
 	<Module4/>
 	<Grid1/>
 	<Module5/>
-	<h1>carausel</h1>
+	<ReactCardSlider slides={Data3} />
 	<Module6/>
-	<h2>image section 1</h2>
-	<h2>image section 2</h2>
+	<GridImage1 />
 	<Module7/>
 	<Grid2/>
 	<Footer/>

@@ -6,11 +6,11 @@ import { StartProject } from "./components/startProject";
 import { StartForm } from "./components/startform";
 import { StartForm2 } from "./components/startform2";
 import { Payment } from "./components/payment";
-
 import { Login } from "./pages/Login";
 import Addhomee from "./pages/Createpage";
 import {Register} from "./pages/Register";
-import Projectlist from "./pages/Projectlist"
+import Projectlist from "./pages/Projectlist";
+
 function App() {
   return (
     <div className="App" >
