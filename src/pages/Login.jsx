@@ -7,6 +7,7 @@ import {Link} from "react-router-dom";
 // import GoogleIcon from '@mui/icons-material/Google';
 // import FacebookIcon from '@mui/icons-material/Facebook';
 import { useNavigate } from "react-router-dom";
+import "../App.css";
 
 const box = {
     margin: "30px 36% 30px 37%",
@@ -100,11 +101,13 @@ export const Login = ({handleuser}) =>
     //     })
     // }
     return (
+        <div className="App" >
         <div style={{
             height: "auto",
-            width: "100%",
+            width: "130%",
             backgroundColor: "#f5efff",
             padding: "30px 0px",
+            marginLeft:"-130px"
         }}>
             <div style={box}>
                 <h1 style={{
@@ -217,6 +220,7 @@ export const Login = ({handleuser}) =>
             </div>
 
 
+        </div>
         </div>
     );
 
