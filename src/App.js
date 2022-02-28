@@ -13,7 +13,7 @@ import Projectlist from "./pages/Projectlist";
 
 function App() {
   return (
-    <div className="App" >
+    <div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/detail" element={<LandingPage />}></Route>
