@@ -8,7 +8,7 @@ import api from "../api/baseurl";
 // import { Facebook } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
-
+import "../App.css";
 const box = {
   margin: "30px 36% 30px 37%",
   borderRadius: "5px",
@@ -121,12 +121,14 @@ export const Register = () =>
   };
 
   return (
+      <div className="App" >
     <div
       style={{
         height: "auto",
-        width: "100%",
+        width: "130%",
         backgroundColor: "#f5efff",
         padding: "30px 0px",
+        marginLeft:"",
       }}
     >
       <div style={box}>
@@ -264,6 +266,7 @@ export const Register = () =>
           Read more
         </a>
       </div>
+    </div>
     </div>
   );
 };
