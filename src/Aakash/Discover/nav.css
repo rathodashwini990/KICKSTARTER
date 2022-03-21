@@ -119,3 +119,7 @@ span{
 .close:after {
   transform: rotate(-45deg);
 }
+
+.mm{
+    width:300px;
+}
