@@ -1,6 +1,6 @@
 # KICKSTARTER
 
-#### About myfitnesspal
+#### About KICKSTARTER
 > Kickstarter is an American public benefit corporation based in Brooklyn, New York, that maintains a global crowdfunding platform focused on creativity. The company's stated mission is to "help bring creative projects to life". As of July 2021, Kickstarter has received nearly $6 billion in pledges from 20 million backers to fund 205,000 projects, such as films, music, stage shows, comics, journalism, video games, technology, publishing, and food-related projects.
 
 > In this project we have tried to enhance the cloning of “kickstarter” website using frontend with React Js, Material UI, redux and backend with validations, authentications and much more. We had build up all our efforts to do our best in this project. As, the Masai School's Mentorship  was specifically to build up our skills and we also accordingly implemented all that teachings in our project to look it at its best. Team collabration was the most crucial part to get successfully completed on time.
